@@ -1,7 +1,6 @@
 曾毅	zeng yi
 长的	chang de
 最长	zui chang
-所长	suo chang
 穿着	chuan zhuo
 反弹	fan tan
 还得	hai dei
@@ -13,15 +12,12 @@
 也得	ye dei
 多长	duo chang
 也行	ye xing
-而行	er xing
-得见	dei jian
 重生	chong sheng
 得有	dei you
 重打	chong da
 都得	dou dei
 更长	geng chang
 太长	tai chang
-得快	dei kuai
 行吗	xing ma
 此行	ci xing
 你得	ni dei
@@ -31,12 +27,10 @@
 行啊	xing a
 调出	diao chu
 孟山都	meng shan du
-得人	dei ren
 行了	xing le
 能行	neng xing
 重装	chong zhuang
 都行	dou xing
-鼻塞	bi se
 重写	chong xie
 重发	chong fa
 长腿	chang tui
@@ -47,24 +41,16 @@
 厚薄	hou bo
 行吧	xing ba
 重放	chong fang
-调到	diao dao
-稍长	shao chang
 露头	lou tou
 调档	diao dang
 传略	zhuan lue
 藏袍	zang pao
-烧着	shao zhao
 壮行	zhuang xing
 新传	xin zhuan
-得空	dei kong
 够长	gou chang
 小曾	xiao zeng
 行啦	xing la
-没顶	mo ding
-长了	chang le
 露出	lou chu
-增长	zeng chang
-同行	tong xing
 着了	zhao le
 私了	si liao
 成行	cheng xing
@@ -73,25 +59,17 @@
 总长	zong chang
 胶着	jiao zhuo
 多行	duo xing
-总觉	zong jue
 再长	zai chang
-长脸	chang lian
 弹起	tan qi
 后传	hou zhuan
 又得	you dei
 重做	chong zuo
 公了	gong liao
 重名	chong ming
-叔伯	shu bai
 欲行	yu xing
 真长	zhen chang
 所恶	suo wu
-填塞	tian se
-老朴	lao piao
-极长	ji chang
 重会	chong hui
-长声	chang sheng
-只觉	zhi jue
 长刀	chang dao
 薄面	bo mian
 长嚎	chang hao
@@ -99,9 +77,7 @@
 说客	shui ke
 长考	chang kao
 字长	zi chang
-中的	zhong di
 地说	de shuo
-抄没	chao mo
 码长	ma chang
 我得	wo dei
 姓曾	xing zeng
@@ -109,12 +85,9 @@
 姓单	xing shan
 姓朴	xing piao
 薄葬	bo zang
-见长	jian chang
 吓着	xia zhao
 陷没	xian mo
-长在	chang zai
 词长	ci chang
-露着	lou zhe
 攒机	cuan ji
 可得	ke dei
 咯血	ka xue
@@ -133,7 +106,6 @@
 行道树	xing dao shu
 曾志伟	zeng zhi wei
 角斗士	jue dou shi
-算得了	suan de liao
 长尾巴	chang wei ba
 丽人行	li ren xing
 查良镛	zha liang yong
