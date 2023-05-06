@@ -8,8 +8,8 @@ data = {
     "ē":"e", "é":"e", "ě":"e", "è":"e", 
     "ī":"i", "í":"i", "ǐ":"i", "ì":"i", 
     "ū":"u", "ú":"u", "ǔ":"u", "ù":"u", 
-    "ǖ":"v", "ǘ":"v", "ǚ":"v", "ǜ":"v", 
-    "ü":"v", "ń": "n",
+    "ǖ":"v", "ǘ":"v", "ǚ":"v", "ǜ":"v", "ü":"v", 
+    "ń":"n", "ň":"n", "ǹ":"n",
 }
 # fmt:on
 
@@ -24,8 +24,6 @@ def conv(pinyin):
 
 # 多音字，value 为最常用的读音
 duoyinzi = {}
-# 排除一些多音字，不同读音的频率相当
-exclude = set(["长", "重", "行", "还", "着", "调", "传", "乐", "藏", "朝", "觉", "奇", "恶", "地"])
 # 带有多音字的词
 words = []
 words_set = set()
@@ -88,11 +86,8 @@ def convWord(line, fout):
 
     # 含有多音字且不是最常用的读音
     flag = False
-    for i, char in enumerate(word):
-        if char in exclude:
-            flag = True
-            break
-        if char in duoyinzi and duoyinzi[char] != pys[i]:
+    for char in word:
+        if char in duoyinzi:
             flag = True
             break
     if flag:
@@ -108,7 +103,7 @@ if __name__ == "__main__":
     convert("./phrase-pinyin-data/pinyin.txt", "phrase.txt", isWord=True)
     convert("./phrase-pinyin-data/large_pinyin.txt", "large.txt", isWord=True)
 
-    fout = open("small.txt", "wt", encoding="utf-8")
+    fout = open("duoyin.txt", "wt", encoding="utf-8")
     # words = list(OrderedDict.fromkeys(words))
     for entry in words:
         fout.write(entry)

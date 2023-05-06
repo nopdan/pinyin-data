@@ -10,4 +10,4 @@
 | phrase.txt  | phrase-pinyin-data/pinyin.txt       | 词语拼音数据             |
 | large.txt   | phrase-pinyin-data/large_pinyin.txt | 词语拼音数据             |
 | correct.txt | 部分来自深蓝词库转换                | 补充或对以上数据进行修正 |
-| small.txt   |                                     | 筛选出带多音字的词       |
+| duoyin.txt  |                                     | 筛选出含多音字的词       |

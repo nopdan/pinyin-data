@@ -279,7 +279,7 @@
 㕲	hua ying
 㕴	chen
 㕵	guo
-㕶	ň ňg
+㕶	n ng
 㕷	hua pa
 㕸	li
 㕹	fa
@@ -7493,7 +7493,7 @@
 咶	huai shi guo gua hua
 咷	tao tiao
 咸	xian jian
-咹	e an ń
+咹	e an n
 咺	xuan
 咻	xiu xu xiao
 咼	guo wai he wo gua
@@ -7515,7 +7515,7 @@
 哌	pai gu
 响	xiang
 哎	ai
-哏	gen hen ǹ
+哏	gen hen n
 哐	kuang qiang
 哑	ya
 哒	da
@@ -7561,7 +7561,7 @@
 哺	bu fu
 哻	han
 哼	heng hng
-哽	geng ying ńg ń
+哽	geng ying ng n
 哾	shuo yue
 哿	ge
 唀	you
@@ -7584,7 +7584,7 @@
 唑	zuo shi
 唒	qiu
 唓	che
-唔	wu ńg ḿ ń
+唔	wu ng ḿ n
 唕	zao
 唖	ya
 唗	dou
@@ -7802,7 +7802,7 @@
 嗬	he
 嗭	zhi
 嗮	sai
-嗯	ń ńg ňg ǹg ň ǹ
+嗯	n ng
 嗰	ge
 嗱	na
 嗲	die dia
@@ -27550,7 +27550,7 @@
 𠮴	yang
 𠮵	mang
 𠮽	long
-𠮾	ǹ ǹg
+𠮾	n ng
 𠮿	sa san
 𠯀	chuan
 𠯂	ci
