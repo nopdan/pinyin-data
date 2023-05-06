@@ -21,7 +21,8 @@ def conv(pinyin):
         res += data.get(i, i)
     return res
 
-
+# 单字读音
+pinyin = {}
 # 多音字，value 为最常用的读音
 duoyinzi = {}
 # 带有多音字的词
@@ -60,6 +61,8 @@ def convChar(line, fout):
     pys = list(OrderedDict.fromkeys(pys))  # 去重
     fout.write(" ".join(pys))
     fout.write("\n")
+
+    pinyin[char] = pys
     # 多音字
     if len(pys) != 1:
         duoyinzi[char] = pys[0]
@@ -73,16 +76,18 @@ def convWord(line, fout):
     if len(li) != 2:
         return
     word = li[0]
-    fout.write(word)
-    fout.write("\t")
-
     pys = [conv(py) for py in li[1].split()]
     pys = list(OrderedDict.fromkeys(pys))  # 去重
-    fout.write(" ".join(pys))
-    fout.write("\n")
-
     if len(word) != len(pys):
         return
+    for i, char in enumerate(word):
+        if pys[i] not in pinyin.get(char, []):
+            return
+
+    fout.write(word)
+    fout.write("\t")
+    fout.write(" ".join(pys))
+    fout.write("\n")
 
     # 含有多音字且不是最常用的读音
     flag = False
