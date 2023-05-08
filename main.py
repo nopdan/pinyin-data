@@ -1,25 +1,20 @@
 import re
 from collections import OrderedDict
 
-# fmt:off
-data = {
-    "ā":"a", "á":"a", "ǎ":"a", "à":"a", 
-    "ō":"o", "ó":"o", "ǒ":"o", "ò":"o", 
-    "ē":"e", "é":"e", "ě":"e", "è":"e", 
-    "ī":"i", "í":"i", "ǐ":"i", "ì":"i", 
-    "ū":"u", "ú":"u", "ǔ":"u", "ù":"u", 
-    "ǖ":"v", "ǘ":"v", "ǚ":"v", "ǜ":"v", "ü":"v", 
-    "ń":"n", "ň":"n", "ǹ":"n",
-}
-# fmt:on
 
-
-# 转换单个拼音 zhōng => zhong1
+# 转换单个拼音 zhōng => zhong
 def conv(pinyin):
-    res = ""
-    for i in pinyin:
-        res += data.get(i, i)
-    return res
+    pinyin = re.sub(r"[āáǎà]", "a", pinyin)
+    pinyin = re.sub(r"[ōóǒò]", "o", pinyin)
+    pinyin = re.sub(r"[ēéěè]", "e", pinyin)
+    pinyin = re.sub(r"[īíǐì]", "i", pinyin)
+    pinyin = re.sub(r"[ūúǔù]", "u", pinyin)
+    pinyin = re.sub(r"[ǖǘǚǜü]", "v", pinyin)
+    pinyin = re.sub(r"m̄|ḿ|m̀", "m", pinyin)
+    pinyin = re.sub(r"ń|ň|ǹ", "n", pinyin)
+    pinyin = re.sub(r"ê̄|ế|ê̌|ề", "ê", pinyin)
+    return pinyin
+
 
 # 单字读音
 pinyin = {}

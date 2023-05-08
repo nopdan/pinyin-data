@@ -7390,7 +7390,7 @@
 呏	sheng
 呐	na ne nuo
 呑	tun
-呒	wu ḿ
+呒	wu m
 呓	yi
 呔	dai tai
 呕	ou
@@ -7407,7 +7407,7 @@
 呠	pen
 呡	wen min
 呢	ne ni
-呣	ḿ m̀ mou
+呣	m mou
 呤	ling
 呥	ran
 呦	you
@@ -7584,7 +7584,7 @@
 唑	zuo shi
 唒	qiu
 唓	che
-唔	wu ng ḿ n
+唔	wu ng m n
 唕	zao
 唖	ya
 唗	dou
@@ -7875,7 +7875,7 @@
 嘵	xiao
 嘶	si
 嘷	hao
-嘸	fu wu m̄ ḿ
+嘸	fu wu m
 嘹	liao
 嘺	qiao
 嘻	xi
@@ -13250,7 +13250,7 @@
 欵	kuan
 欶	shuo sou
 欷	xi
-欸	ai ê̄ ế ê̌ ề xie ei
+欸	ai ê xie ei
 欹	yi qi
 欺	qi
 欻	chua xu
@@ -21270,7 +21270,7 @@
 誏	lang
 誐	e
 誑	kuang
-誒	ei xi yi ê̄ ế ê̌ ề
+誒	ei xi yi ê
 誓	shi
 誔	ting
 誕	dan
